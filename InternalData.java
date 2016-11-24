@@ -142,6 +142,7 @@ public class InternalData extends Activity {
         protected void onProgressUpdate(Integer... values) {  //ellipses mean many of same type so array
             super.onProgressUpdate(values);
             //some changes test for github
+            //some more changes
 
             dialog.incrementProgressBy(values[0]);            //this is the value 5 from publishProgress(5) above
 
